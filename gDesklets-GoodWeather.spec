@@ -21,11 +21,14 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define _displaysdir	%{_datadir}/gdesklets/Displays
 
 %description
-This desklet (sensor/display) shows the current temperature, humidity, sky, windchill temperature and a forecast of the next four days on your desktop.
+This desklet (sensor/display) shows the current temperature, humidity,
+sky, windchill temperature and a forecast of the next four days on
+your desktop.
 
 %description -l pl
-Czujnik i wy¶wietlacz do pokazywania aktualnej informacji na temat temperatury wilgotno¶ci, zachmurzeniu
-oraz  sile wiatru. Wy¶wietla równie¿ informacje na temat pogody na najbli¿sze cztery dni.
+Czujnik i wy¶wietlacz do pokazywania aktualnej informacji na temat
+temperatury wilgotno¶ci, zachmurzeniu oraz sile wiatru. Wy¶wietla
+równie¿ informacje na temat pogody na najbli¿sze cztery dni.
 
 %prep
 %setup -q -n %{pname}
@@ -38,7 +41,6 @@ install -d $RPM_BUILD_ROOT{%{_sensorsdir},%{_displaysdir}/%{pname}}
 	$RPM_BUILD_ROOT%{_sensorsdir}
 
 cp -R gfx *.display $RPM_BUILD_ROOT%{_displaysdir}/%{pname}
-
 
 %py_comp $RPM_BUILD_ROOT%{_sensorsdir}
 %py_ocomp $RPM_BUILD_ROOT%{_sensorsdir}
