@@ -1,4 +1,6 @@
+
 %define	pname	GoodWeather
+
 Summary:	A sensor and display for displaying the current and forecasting weather information
 Summary(pl):	Czujnik i wy¶wietlacz do pokazywania aktualnej informacji pogodowej oraz jej prognozowania
 Name:		gDesklets-GoodWeather
@@ -17,8 +19,8 @@ Provides:	gDesklets-sensor
 #Conflicts:	gDesklets-StarterKit
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define	_sensorsdir	%{_datadir}/gdesklets/Sensors
-%define _displaysdir	%{_datadir}/gdesklets/Displays
+%define		_sensorsdir	%{_datadir}/gdesklets/Sensors
+%define		_displaysdir	%{_datadir}/gdesklets/Displays
 
 %description
 This desklet (sensor/display) shows the current temperature, humidity,
