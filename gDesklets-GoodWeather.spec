@@ -1,7 +1,7 @@
 %define	pname	GoodWeather
 Summary:	A sensor and display for displaying the current and forecasting weather information
 Summary(pl):	Czujnik i wy¶wietlacz do pokazywania aktualnej informacji pogodowej oraz jej prognozowania
-Name:		gDesklets-%{pname}
+Name:		gDesklets-GoodWeather
 Version:	0.4
 Release:	1
 License:	GPL2
@@ -26,8 +26,8 @@ sky, windchill temperature and a forecast of the next four days on
 your desktop.
 
 %description -l pl
-Czujnik i wy¶wietlacz do pokazywania aktualnej informacji na temat
-temperatury wilgotno¶ci, zachmurzeniu oraz sile wiatru. Wy¶wietla
+Czujnik i wy¶wietlacz do pokazywania aktualnych informacji dotycz±cych
+temperatury, wilgotno¶ci, zachmurzenia oraz si³y wiatru. Wy¶wietla
 równie¿ informacje na temat pogody na najbli¿sze cztery dni.
 
 %prep
