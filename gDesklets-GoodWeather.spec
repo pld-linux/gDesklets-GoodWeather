@@ -1,5 +1,5 @@
 
-%define	pname	GoodWeather
+%define		pname	GoodWeather
 
 Summary:	A sensor and display for displaying the current and forecasting weather information
 Summary(pl):	Czujnik i wy¶wietlacz do pokazywania aktualnej informacji pogodowej oraz jej prognozowania
