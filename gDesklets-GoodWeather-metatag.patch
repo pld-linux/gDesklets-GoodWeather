@@ -1,0 +1,12 @@
+diff -urN GoodWeather.orig/GoodWeather.display GoodWeather/GoodWeather.display
+--- GoodWeather.orig/GoodWeather.display	2004-08-31 13:24:27.872865744 +0200
++++ GoodWeather/GoodWeather.display	2004-08-31 13:24:36.371573744 +0200
+@@ -1,7 +1,7 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ 
+ <display window-flags="below, sticky" anchor="ne">
+-  <metha author="Konrad Rieck"
++  <meta author="Konrad Rieck"
+          name="GoodWeather display"
+          version="0.3"
+          description="Themable weather condition and forecast display (needs FontSelector)"/>
