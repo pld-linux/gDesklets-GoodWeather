@@ -54,9 +54,6 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc README
 %dir %{_sensorsdir}/%{pname}
-%dir %{_sensorsdir}/%{pname}/liquid/*/*
-%dir %{_sensorsdir}/%{pname}/weather.com/*/*
-%dir %{_sensorsdir}/%{pname}/um/*/*
 %{_sensorsdir}/%{pname}/*.py*
 %{_sensorsdir}/%{pname}/liquid
 %{_sensorsdir}/%{pname}/weather.com
