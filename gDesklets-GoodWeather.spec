@@ -6,7 +6,7 @@ Summary(pl):	Czujnik i wy¶wietlacz do pokazywania aktualnej informacji pogodowej
 Name:		gDesklets-GoodWeather
 Version:	0.4
 Release:	2
-License:	GPL2
+License:	GPL v2
 Group:		X11/Applications
 Source0:	http://gdesklets.gnomedesktop.org/files/%{pname}-%{version}.tar.bz2
 # Source0-md5:	ad7851fed9de6f8adc35d522d5b08cdb
