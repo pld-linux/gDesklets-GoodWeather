@@ -5,16 +5,17 @@ Summary:	A sensor and display for displaying the current and forecasting weather
 Summary(pl):	Czujnik i wy¶wietlacz do pokazywania aktualnej informacji pogodowej oraz jej prognozowania
 Name:		gDesklets-GoodWeather
 Version:	0.4
-Release:	2
+Release:	3
 License:	GPL v2
 Group:		X11/Applications
 Source0:	http://gdesklets.gnomedesktop.org/files/%{pname}-%{version}.tar.bz2
 # Source0-md5:	ad7851fed9de6f8adc35d522d5b08cdb
 Patch0:		%{name}-metatag.patch
 URL:		http://gdesklets.gnomedesktop.org/categories.php?func=gd_show_app&gd_app_id=93
-BuildRequires:	python >= 2.3
+BuildRequires:	python >= 1:2.3
 BuildRequires:	python-pygtk-gtk >= 1.99.14
 Requires:	gDesklets
+%pyrequires_eq	python-libs
 Provides:	gDesklets-display
 Provides:	gDesklets-sensor
 #Conflicts:	gDesklets-StarterKit
