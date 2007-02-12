@@ -2,7 +2,7 @@
 %define		pname	GoodWeather
 
 Summary:	A sensor and display for displaying the current and forecasting weather information
-Summary(pl):	Czujnik i wy∂wietlacz do pokazywania aktualnej informacji pogodowej oraz jej prognozowania
+Summary(pl.UTF-8):   Czujnik i wy≈õwietlacz do pokazywania aktualnej informacji pogodowej oraz jej prognozowania
 Name:		gDesklets-GoodWeather
 Version:	0.4
 Release:	3
@@ -29,10 +29,10 @@ This desklet (sensor/display) shows the current temperature, humidity,
 sky, windchill temperature and a forecast of the next four days on
 your desktop.
 
-%description -l pl
-Czujnik i wy∂wietlacz do pokazywania aktualnych informacji dotycz±cych
-temperatury, wilgotno∂ci, zachmurzenia oraz si≥y wiatru. Wy∂wietla
-rÛwnieø informacje na temat pogody na najbliøsze cztery dni.
+%description -l pl.UTF-8
+Czujnik i wy≈õwietlacz do pokazywania aktualnych informacji dotyczƒÖcych
+temperatury, wilgotno≈õci, zachmurzenia oraz si≈Çy wiatru. Wy≈õwietla
+r√≥wnie≈º informacje na temat pogody na najbli≈ºsze cztery dni.
 
 %prep
 %setup -q -n %{pname}
