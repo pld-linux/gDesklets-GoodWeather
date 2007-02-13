@@ -2,7 +2,7 @@
 %define		pname	GoodWeather
 
 Summary:	A sensor and display for displaying the current and forecasting weather information
-Summary(pl.UTF-8):   Czujnik i wyświetlacz do pokazywania aktualnej informacji pogodowej oraz jej prognozowania
+Summary(pl.UTF-8):	Czujnik i wyświetlacz do pokazywania aktualnej informacji pogodowej oraz jej prognozowania
 Name:		gDesklets-GoodWeather
 Version:	0.4
 Release:	3
